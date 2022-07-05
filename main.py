@@ -21,7 +21,7 @@ def format_dic(dic_para):
   descr = dic_para["description"]
   country = dic_para["country"]
   return f"{name}, a  {descr}, from {country}" 
-# Function is later called inside a f string  
+# function is later called inside a f string as below: 
 # print(f"Compare A: {format_dic(dic_a)}.")
 # print(vs)
 # print(f"Against B: {format_dic(dic_b)}.")
